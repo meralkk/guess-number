@@ -72,7 +72,7 @@ const guess = () => {
     const trialNumber = Number(totalShot);
 
     if (totalShot > 3 ) {
-        credits.innerHTML = `You have ${trialNumber} guesses remaining`;
+        credits.innerHTML = `You have ${trialNumber} guesses left!`;
 
     } 
 
